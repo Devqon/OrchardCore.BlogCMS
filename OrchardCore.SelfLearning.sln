@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 16.0.29905.134
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrchardCore.SelfLearning.Web", "OrchardCore.SelfLearning.Web\OrchardCore.SelfLearning.Web.csproj", "{CCC97E0B-A6D0-4C27-9EEF-DBB62460D2A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Themes", "Themes", "{28FE9B1B-C6C3-491F-ADA6-7992DCBC5B44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrchardCore.SelfLearning.CustomTheme", "OrchardCore.SelfLearning.Themes\OrchardCore.SelfLearning.CustomTheme\OrchardCore.SelfLearning.CustomTheme.csproj", "{F905E28F-03B2-475D-ADEE-BB679B51C91E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCC97E0B-A6D0-4C27-9EEF-DBB62460D2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC97E0B-A6D0-4C27-9EEF-DBB62460D2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC97E0B-A6D0-4C27-9EEF-DBB62460D2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC97E0B-A6D0-4C27-9EEF-DBB62460D2A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F905E28F-03B2-475D-ADEE-BB679B51C91E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F905E28F-03B2-475D-ADEE-BB679B51C91E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F905E28F-03B2-475D-ADEE-BB679B51C91E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F905E28F-03B2-475D-ADEE-BB679B51C91E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F905E28F-03B2-475D-ADEE-BB679B51C91E} = {28FE9B1B-C6C3-491F-ADA6-7992DCBC5B44}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {257BC7B1-587E-4373-BFD9-992042993659}
+	EndGlobalSection
+EndGlobal
